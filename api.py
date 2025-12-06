@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "1fe1ef750fd9cd69672a2470b7b4510c"  # Get Free API Key from https://openweathermap.org/api
+API_KEY = "1fe1ef750fd9cd69672a2470b7b4510c"  
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def get_weather(city):
@@ -30,3 +30,4 @@ def get_weather(city):
     except Exception as e:
         print("Error:", e)
         return None
+
